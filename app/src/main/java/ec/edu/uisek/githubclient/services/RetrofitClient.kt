@@ -26,6 +26,8 @@ object RetrofitClient {
         val originalRequest = chain.request()
         val token = BuildConfig.GITHUB_API_TOKEN
 
+
+
         // Si el token está configurado, agregarlo al header Authorization
         val newRequest = if (token.isNotEmpty()) {
             originalRequest.newBuilder()
