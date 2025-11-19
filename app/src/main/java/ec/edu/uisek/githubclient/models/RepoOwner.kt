@@ -1,7 +1,6 @@
 package ec.edu.uisek.githubclient.models
 
 import com.google.gson.annotations.SerializedName
-import retrofit2.http.Url
 
 data class RepoOwner (
     val id: Long,
