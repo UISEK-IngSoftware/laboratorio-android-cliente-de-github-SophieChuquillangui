@@ -21,10 +21,6 @@ data class Repo(
     @SerializedName("owner")
     val owner: RepoOwner
 )
-
-/**
- * Representa la PETICIÓN que enviamos para crear un nuevo repositorio.
- */
 data class RepoRequest(
     val name: String,
     val description: String

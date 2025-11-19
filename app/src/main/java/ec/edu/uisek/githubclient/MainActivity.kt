@@ -1,5 +1,3 @@
-// Archivo: MainActivity.kt (CORREGIDO)
-
 package ec.edu.uisek.githubclient
 
 import android.content.Intent
@@ -33,6 +31,10 @@ class MainActivity : AppCompatActivity() {
             displayNewRepoForm()
         }
 
+    }
+
+    override fun onResume() {
+        super.onResume()
         fetchRepositories()
     }
 
