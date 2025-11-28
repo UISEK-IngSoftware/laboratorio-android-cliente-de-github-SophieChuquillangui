@@ -39,7 +39,7 @@ class EditRepoForm : AppCompatActivity() {
         val newDescription = binding.repoDescriptionInput.text.toString()
         val request = RepoPatchRequest(description = newDescription)
 
-        RetrofitClient.gitHubApiService.updateRepo(
+        RetrofitClient.getApiService().updateRepo(
             owner = GITHUB_USER,
             repo = repoName,
             body = request

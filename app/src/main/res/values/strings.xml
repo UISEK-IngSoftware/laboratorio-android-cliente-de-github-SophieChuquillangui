@@ -8,4 +8,9 @@
     <string name="cancel">Cancelar</string>
     <string name="save">Guardar</string>
 
+    <!--Pantalla Login -->
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Ingresar</string>
+
 </resources>
